@@ -290,3 +290,30 @@ button:hover {
     background-color: var(--wit);
     color: var(--zwart);
 }
+/* ==================================== */
+
+/* Tabel */
+
+/* ==================================== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--wit);
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid var(--lichtgeel);
+    text-align: left;
+}
+
+thead th {
+    background-color: var(--lichtgeel);
+    text-align: center;
+}
+
+.categorie {
+    background-color: var(--lichtgeel);
+    font-size: 1.2rem;
+}
