@@ -135,6 +135,12 @@ nav > ul > li:last-child ul ul {
     left: auto;
     right: 100%;
 }
+
+/* Menuknop en checkbox: verborgen op desktop */
+#menu-toggle,
+.menu-knop {
+    display: none;
+}
 /* ==================================== */
 
 /* Hoofdinhoud */
@@ -316,4 +322,59 @@ thead th {
 .categorie {
     background-color: var(--lichtgeel);
     font-size: 1.2rem;
+}
+/* ==================================== */
+
+/* Mobiel */
+
+/* ==================================== */
+@media (max-width: 768px) {
+    header img {
+        width: 100px;
+    }
+
+    .menu-knop {
+        display: block;
+        width: 100%;
+        margin-top: 0;
+        padding: 10px 20px;
+        color: var(--wit);
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    nav > ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    #menu-toggle:checked ~ ul {
+        display: flex;
+    }
+
+    nav ul ul {
+        display: block;
+        position: static;
+        padding-left: 20px;
+    }
+
+    .hero img {
+        height: 150px;
+    }
+
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .burger-lijst {
+        flex-direction: column;
+    }
+
+    label,
+    fieldset p,
+    input,
+    textarea,
+    .keuze {
+        width: 100%;
+    }
 }
