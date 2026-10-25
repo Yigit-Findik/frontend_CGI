@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +7,103 @@
     <title>De Vette Bek</title>
 </head>
 <body>
-    <nav>
-        <p>this is p</p>
-        <p>this is p</p>
-    </nav>
-    <header>
+<header>
+    <img src="img/logo.jpg" alt="Logo Burger Street Food">
+    <div class="header-tekst">
+        <h1>De Vette Bek</h1>
+        <a href="bezorgen.html" class="knop">Bestel hier</a>
+        <a href="prijslijst.html">Prijslijst</a>
+    </div>
+</header>
+<nav>
+    <ul>
+        <li><a href="#">hamburgers</a>
+            <ul>
+                <li><a href="#">kip</a></li>
+                <li><a href="#">rund</a>
+                    <ul>
+                        <li><a href="#">regular</a></li>
+                        <li><a href="#">hallal</a></li>
+                        <li><a href="#">beef</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">vega</a></li>
+            </ul>
+        </li>
+        <li><a href="#">saus</a>
+            <ul>
+                <li><a href="#">mayonaise</a></li>
+                <li><a href="#">curry</a></li>
+                <li><a href="#">ketjup</a></li>
+                <li><a href="#">mosterd</a></li>
+                <li><a href="#">joppie</a></li>
+            </ul>
+        </li>
+        <li><a href="#">drinken</a>
+            <ul>
+                <li><a href="#">cola</a></li>
+                <li><a href="#">fanta</a></li>
+                <li><a href="#">spa blauw</a></li>
+                <li><a href="#">spa rood</a></li>
+                <li><a href="#">fristie</a></li>
+            </ul>
+        </li>
+        <li><a href="#">dessert</a>
+            <ul>
+                <li><a href="#">softijs</a>
+                    <ul>
+                        <li><a href="#">klein</a></li>
+                        <li><a href="#">medium</a></li>
+                        <li><a href="#">groot</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">waterijs</a>
+                    <ul>
+                        <li><a href="#">rakket</a></li>
+                        <li><a href="#">peerijs</a></li>
+                        <li><a href="#">stoplicht</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</nav>
 
-    </header>
+<main>
+    <div class="hero">
+        <img src="img/hero.jpg" alt="Burgerbus die eten bezorgt">
+        <h2>Wij bezorgen ook thuis!</h2>
+    </div>
+
+    <section>
+        <h2>Onze burgers</h2>
+        <div class="burger-lijst">
+            <article class="burger">
+                <img src="img/kip.jpeg" alt="Kipburger">
+                <div class="burger-kop">
+                    <h3>kip burger</h3>
+                    <span class="prijs">€ 12,95</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </article>
+            <article class="burger">
+                <img src="img/rund.jpeg" alt="Rundburger">
+                <div class="burger-kop">
+                    <h3>rund burger</h3>
+                    <span class="prijs">€ 12,-</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </article>
+            <article class="burger">
+                <img src="img/vega.jpeg" alt="Vegaburger">
+                <div class="burger-kop">
+                    <h3>vega burger</h3>
+                    <span class="prijs">€ 13,-</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </article>
+        </div>
+    </section>
+</main>
 </body>
 </html>
