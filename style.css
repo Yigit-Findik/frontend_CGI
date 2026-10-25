@@ -169,8 +169,11 @@ main {
     font-size: 2.5rem;
     text-shadow: 2px 2px 4px var(--zwart);
 }
+/* ==================================== */
 
 /* Burgers */
+
+/* ==================================== */
 section {
     padding: 20px 10px;
 }
@@ -204,4 +207,66 @@ section h2 {
 
 .burger p {
     line-height: 1.5;
+}
+/* ==================================== */
+
+/* Formulier */
+
+/* ==================================== */
+form {
+    max-width: 600px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--zwart);
+    font-family: inherit;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+input[type="radio"] + label {
+    display: inline;
+    margin-right: 20px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 3px solid var(--zwart);
+}
+
+fieldset {
+    border: 2px solid var(--wit);
+    padding: 15px;
+    margin: 20px 0;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+button {
+    padding: 10px 30px;
+    border: none;
+    background-color: var(--zwart);
+    color: var(--geel);
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--wit);
+    color: var(--zwart);
 }
